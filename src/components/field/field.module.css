@@ -1,0 +1,17 @@
+.field {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+	justify-content: center;
+	margin: 20px;
+}
+
+.cell {
+	border: 1px solid black;
+	font-size: 70px;
+	text-align: center;
+}
+
+.winningCell {
+	color: red;
+}
